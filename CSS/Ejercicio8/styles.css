@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+#primer {
+    border: 5px;
+    color: aqua;
+    background-color: green;
+    margin: 0px;
+    padding: 0px;
+}
+
+#segundo {
+    border: 5px;
+    color: blueviolet;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+}
+
+#tercero {
+    border: 5px;
+    color: blue;
+    background-color: brown;
+    margin: 0px;
+    padding: 20px;
+}
+
+

@@ -1,0 +1,19 @@
+#primera { 
+    background-color: red;
+    width: 100%;
+}
+
+#segunda {
+    background-color: blue;
+    width: 50%;
+}
+
+#tercera {
+    background-color: green;
+    width: 25%;
+}
+
+#cuarta {
+    background-color: yellow;
+    width: 12,5%;
+}
