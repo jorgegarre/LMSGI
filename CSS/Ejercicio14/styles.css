@@ -1,0 +1,47 @@
+body {
+    margin: 0% auto;
+    width: 900px;
+}
+
+#cabecera {
+    background-color: red;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#navegador {
+    margin-top: 5px;
+    background-color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 150px;
+}
+
+#navegador a {
+    margin-left: 50px;
+}
+
+#contenido {
+    margin-top: 5px;
+}
+
+#izquierda {
+    float:left;
+    background-color: grey;
+    width: 200px;
+    padding-top: 10px;
+}
+
+#izquierda a {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 40px;
+    border: 1px solid black;
+    background-color: white;
+}
+

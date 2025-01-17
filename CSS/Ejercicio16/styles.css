@@ -1,0 +1,59 @@
+#contenedor {
+    width: 1300px;
+    background-color: rgb(240, 240, 104);
+    margin: 0% auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boton {
+    background-color: transparent;
+    color: red;
+    border-color: red;
+}
+
+#SupI {
+    float: left;
+}
+
+#SupD {
+    float: right;
+}
+
+#SupI h1 {
+    color: red;
+}
+
+#SupI h3 {
+    color: rgb(68, 66, 66);
+}
+
+#Central {
+    clear: both;
+
+}
+
+#MedI {
+    float: left;
+    width: 730px;
+}
+
+#MedD {
+    float: right;
+}
+
+
+
+label {
+    color: purple;
+    font-weight: bold;
+}
+
+legend {
+    color: rgb(65, 95, 20);
+}
+
+#Pie {
+    clear: both;
+    padding-bottom: 20px;
+}
