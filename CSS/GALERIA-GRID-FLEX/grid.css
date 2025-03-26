@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: #666666;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    grid-area: main;
+    background-color: #666666;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main img {
+    width: 25%;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #666666;
+    padding: 20px;
+    text-align: center;
+}

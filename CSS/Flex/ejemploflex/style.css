@@ -1,0 +1,22 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-color: #b8b6b6;
+ box-sizing: border-box;
+ margin: top 1;
+}
+
+.grid-container {
+  margin-top: 10px;
+  background-color: #b8b6b6;
+  border-radius: 10px;
+  display: grid;
+  border: solid 2px yellow;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
