@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <h2>Validación de JavaScript</h2>
+
+    <p>Por favor introduce tu edad</p>
+
+    <input id="numb">
+
+    <button type="button"
+        onclick="validarEdad()">Validar</button>
+
+    <p id="resultado"></p>
+
+    <h2>Indice de Masa Corporal</h2>
+
+    <p>Por favor introduce tu peso </p>
+
+    <input id="numb">
+
+    <button type="button"
+        onclick="validarMasaCorporal ()">Validar</button>
+
+    <p id="resultado"></p>  
+    
+    <script>
+        function validarMasaCorporal() {
+            var edad = document.getElementById("numb").value;
+            var resultado = document.getElementById("resultado");
+
+            if (edad >= 18) {
+                resultado.innerHTML = "Eres mayor de edad";
+            } else { 
+                resultado.innerHTML = "Eres menor de edad";
+            }
+        }
+    </script>
+</body>
+</html>

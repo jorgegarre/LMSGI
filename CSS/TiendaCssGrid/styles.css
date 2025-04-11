@@ -72,6 +72,31 @@ section.productos {
     align-items: space-between;
 }
 
+@media (max-width: 768px) {
+    .header {
+        padding: 20px;
+    }
 
+    .footer {
+        padding: 20px;
+    }
+
+    .tarjeta {
+        flex-direction: row;
+    }
+
+    .contenido h3 {
+        font-size: 1.2rem;
+    }
+
+    .contenido p {
+        font-size: 0.9rem;
+    }
+
+    .contenido .precio {
+        font-size: 1.2rem;
+    }
+    
+}
 
     

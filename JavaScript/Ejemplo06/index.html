@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Introduce un numero</h2>
+    <input type="number" id="numero" placeholder="Introduce un número">
+    <button onclick=calcularAleatorio();>Calcular</button>
+
+    <script>
+        function calcularAleatorio() {
+            const numero = document.querySelector("#numero").value;
+            const aleatorio = Math.floor(Math.random() * 10) + 1;
+            if (numero == aletaorio) {
+                alert("¡Felicidades has acertado!")
+            } else {
+                alert("Lo siento, el número era " + aleatorio);
+            }
+            
+        }
+    </script>
+</body>
+</html>

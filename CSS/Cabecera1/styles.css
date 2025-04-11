@@ -38,8 +38,8 @@ nav {
     font-weight: bold;
 }
 
-.nav a.hover {
-    transform: scale(2,2);
+.nav a:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {

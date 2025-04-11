@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ventana Modal</h2>
+    <img src="https://www.w3schools.com/w3images/lights.jpg" onclick=abrirModal(); alt="Lights" style="max-width:300px">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" onclick=abrirModal(); alt="Lights" style="max-width:300px">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" onclick=abrirModal(); alt="Lights" style="max-width:300px">
+    
+
+    <dialog id="modal">
+        <h3>Hola, soy un modal</h3>
+        <img src="https://www.w3schools.com/w3images/lights.jpg" onclick=cerrarModal(); alt="Lights" style="width:100%;max-width:300px">
+        <img src="https://www.w3schools.com/w3images/lights.jpg" onclick=cerrarModal(); alt="Lights" style="width:100%;max-width:300px">
+        <img src="https://www.w3schools.com/w3images/lights.jpg" onclick=cerrarModal(); alt="Lights" style="width:100%;max-width:300px">
+        
+    </dialog>
+    <script>
+        function abrirModal() {
+            document.querySelector("#modal").showModal();
+        }
+
+        function cerrarModal() {
+            document.querySelector("#modal").close();
+        }
+    </script>
+</body>
+</html>
