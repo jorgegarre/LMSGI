@@ -1,6 +1,8 @@
-# LMSGI
-Lenguaje De Marcas y Sistemas Gestores de la Información
+# jorgegarre.github.io
 
-# I.E.S Zaidín Vergeles
+# Pagina Web Proyecto Final de LMSGI
 
-![Imagen](https://pxhere.com/es/photo/910613)
+** Explicacion Web **
+La página web va a promocionarme a mi mismo "Jorge Garre Corrales" como desarrollador web.
+
+Tema estilos 
